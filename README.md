@@ -1,4 +1,4 @@
-# 2D_FRET_ratiometrics
+# 2D FRET ratiometrics
 
 
 2D FRET ratiometric analysis 
