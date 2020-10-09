@@ -3,7 +3,8 @@
 ## Description
 2DFRETratiometrics is an ImageJ macro for image analysis, that covers the processing of raw image data sets into ratiometric measurements, capable of illustrating relative differences in the protein activation states within a single cell. This tool was spcifically developed to analyse ratiometric FRET signal on images acquired in widefield inverted microscopes or laser point scanning confocal systems. This tool follows the main steps of the ratiometric FRET analysis pipeline, including multiple options of background subtraction, uneven illumination correction, object segmentation and the ratiometric measurements of FRET.
 
-Mouse Schwann cells FRET result
+Mouse Schwann cells FRET result:
+
 ![picture alt](https://github.com/mafsousa/2DFRETratiometrics/blob/main/Testing_data/example.png) 
 
 ## How it works
