@@ -1,11 +1,10 @@
 # 2D FRET ratiometrics
 
+## Description
+2DFRETratiometrics is an ImageJ macro for image analysis, that covers the processing of raw image data sets into ratiometric measurements, capable of illustrating relative differences in the protein activation states within a single cell. This tool was spcifically developed to analyse ratiometric FRET signal on images acquired in widefield inverted microscopes or laser point scanning confocal systems. This tool follows the main steps of the ratiometric FRET analysis pipeline, including multiple options of background subtraction, uneven illumination correction, object segmentation and the ratiometric measurements of FRET.
 
-2D FRET ratiometric analysis 
-v0.1
-
-This is a generic macro to perform 2D FRET ratiometric analysis into individual cell images. The main workflow is composed of an illumination 
-correction; background subtraction from the noisy image or with mean value; structure/cell segmentation and FRET ratiometric analysis.
+Inline-style: 
+![alt text]
  
 ## Input:
 * File in .tif or .tiff formats, 2D with two or three channels
