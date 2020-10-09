@@ -4,15 +4,14 @@
 2D FRET ratiometric analysis 
 v0.1
 
-This is a generic macro to perform 2D FRET ratiometric. The main workflow is composed of an illumination 
-correction; background subtraction from the noisy image or with mean value; 
-structure/cell segmentation and FRET ratiometric analysis
+This is a generic macro to perform 2D FRET ratiometric analysis into individual cell images. The main workflow is composed of an illumination 
+correction; background subtraction from the noisy image or with mean value; structure/cell segmentation and FRET ratiometric analysis.
  
 ## Input:
 * File in .tif or .tiff formats, 2D with two or three channels
 * Divided into two modes: 
-* single image already opened 
-* batch mode, to process a folder of images. 
+ 1. single image already opened 
+ 2. batch mode, to process a folder of images. 
 ## Output: 
 The macro can output 5 types of files:
 * The 2D_FRET_ratiometrics RGB: an RGB image with royal LUT to illustrate the FRET ratio
