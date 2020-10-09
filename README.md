@@ -3,9 +3,15 @@
 ## Description
 2DFRETratiometrics is an ImageJ macro for image analysis, that covers the processing of raw image data sets into ratiometric measurements, capable of illustrating relative differences in the protein activation states within a single cell. This tool was spcifically developed to analyse ratiometric FRET signal on images acquired in widefield inverted microscopes or laser point scanning confocal systems. This tool follows the main steps of the ratiometric FRET analysis pipeline, including multiple options of background subtraction, uneven illumination correction, object segmentation and the ratiometric measurements of FRET.
 
-Inline-style: 
-![alt text]
- 
+Mouse Schwann cells FRET result
+![picture alt](https://github.com/mafsousa/2DFRETratiometrics/blob/main/Testing_data/example.png) 
+
+## How it works
+In this macro, the FRET ratiometric pipeline is followed by correcting image illumination and subtracting image background. Cells are segmented either by automatic threshold or by user selection, and finally, the ratio between fret and donor channels is made. Some user-friendly dialogs are available to perform multiple options during the workflow execution. Background subtraction can optionally be made either using a background image or by subtracting mean intensity background values. 
+Segmentation step can be performed from the first channel or by using a third channel, in the case it is available. The input is divided into two modes: single file or batch files, allowing processing a single opened image or a full folder of images. The output result combines the 2D_FRET_ratiometrics RGB image with royal LUT to illustrate the FRET ratio; the 2D_FRET_ratiometrics results table for each image; the 2D_FRET_ratiometrics results table for all images in batch mode; the structure/cell mask and the ROI outline for quality control.
+
+Note that while 2DFRETratiometrics is easy to use and semi-automatized, it only works efficiently with images with individual cells.
+
 ## Input:
 * File in .tif or .tiff formats, 2D with two or three channels
 * Divided into two modes: 
